@@ -18,7 +18,7 @@ if("podcasts/podcast"in link):
 
 else:
     try:
-        client.login(email="alirezaa222@gmail.com", password="1337779999")
+        client.login(email="EMAIL", password="PASSWORD")
         a = client.get_song_by_url(link).dict()
         print(a["song"]+" spit "+a["artist"]+" spit "+a["hq_link"]+" spit "+a["lyric"])
     except BadCredentials:
